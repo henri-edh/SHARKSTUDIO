@@ -15,7 +15,7 @@ jobs:
 
     - name: Fetch upstream changes
       run: |
-        git remote add upstream https://github.com/henri-edh/SHARKSTUDIO.git
+        git remote add upstream https://github.com/nod-ai/SHARK.git
         git fetch upstream
 
     - name: Merge upstream changes
